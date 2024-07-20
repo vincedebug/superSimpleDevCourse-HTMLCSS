@@ -1,0 +1,23 @@
+p {
+    font-family: Arial;
+}
+
+.p1 {
+    font-weight: bold;
+    margin-bottom: 8px;
+
+}
+
+.s1 {
+    color: gray;
+    font-weight: normal;
+}
+
+.p2 {
+    margin-top: 0px;
+    width: 500px;
+}
+
+.s2 {
+    color: blue;
+}

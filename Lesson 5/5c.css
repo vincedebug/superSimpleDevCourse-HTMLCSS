@@ -1,0 +1,26 @@
+p, button {
+    font-family: Verdana;
+}
+
+.course-title {
+    font-weight: bold;
+    font-size: large;
+    margin-bottom: 5px;
+}
+
+.course-tip {
+    margin-top: 0px;
+    color: gray;
+}
+
+.course-info {
+    width: 300px;
+}
+
+.course-start {
+    border: none;
+    color: white;
+    padding: 10px 20px 10px;
+    background-color: green;
+    border-radius: 7px;
+}

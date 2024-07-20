@@ -1,0 +1,27 @@
+.a1 {
+    color: rgb(0, 113, 133);
+}
+
+.p1 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.p2 {
+    color: rgb(0, 118, 0);
+    font-weight: bold;
+}
+
+.b1 {
+    border: none;
+    background-color: rgb(255, 216,20);
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+}
+
+.b2 {
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(255, 164, 28);
+}

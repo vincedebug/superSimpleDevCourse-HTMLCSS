@@ -1,0 +1,16 @@
+p {
+    font-family: Arial;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.p1 {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.p2{
+    font-style: italic;
+    font-size: x-large;
+    color: red;
+}

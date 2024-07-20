@@ -1,0 +1,20 @@
+button {
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border: none;
+    transition: padding 1s;
+
+}
+button:hover {
+    box-shadow: none;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 28px;
+    padding-right: 28px;
+    
+}

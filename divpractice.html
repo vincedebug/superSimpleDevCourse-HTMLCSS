@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grid Layout Example</title>
+  <style>
+    .grid-container {
+      display: grid;
+      grid-template-columns: 100px 1fr;
+      align-items: center; /* Align items vertically center */
+      gap: 10px; /* Gap between grid items */
+    }
+
+    .grid-container img {
+      width: 100%; /* Ensure the image fills its container */
+      height: auto; /* Maintain aspect ratio */
+      object-fit: cover; /* Cover the entire area */
+      border-radius: 50%; /* Make the image round */
+    }
+  </style>
+</head>
+<body>
+  <div class="grid-container">
+    <img src="Lesson 10/dog-3277416.jpg" alt="Dog Image">
+    <p>Some text</p>
+  </div>
+</body>
+</html>
