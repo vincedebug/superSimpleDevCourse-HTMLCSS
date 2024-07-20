@@ -1,0 +1,35 @@
+body {
+    font-family: Arial;
+    font-weight: 500;
+}
+
+p {
+    margin: 0px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: gray;
+
+}
+
+.inner-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 7px 12px 5px 12px;
+}
+
+.number {
+    background-color: rgb(59, 59, 255);
+    color: white;
+    padding: 3px 12px 3px 12px;
+    border-radius: 15px;
+
+}
+
