@@ -1,0 +1,57 @@
+img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+.container {
+    width:350px;
+    font-family: Arial;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.name {
+    font-weight: bold;
+    
+}
+
+.inner-container {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+button {
+    font-size: 12px;
+}
+
+.bio, .status {
+    color: gray;
+    margin-top: 3px;
+    margin-bottom: 3px;
+
+}
+
+.status {
+    font-size: 14px;
+}
+
+button {
+    border: none;
+    padding: 8px 12px 8px 12px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
