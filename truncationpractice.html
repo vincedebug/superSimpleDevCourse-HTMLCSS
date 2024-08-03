@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Truncation Example</title>
+    <style>
+        .truncate {
+            width: 200px; /* Set the width of the container */
+            white-space: nowrap; /* Prevent the text from wrapping */
+            overflow: hidden; /* Hide the overflowed text */
+            text-overflow: ellipsis; /* Display the ellipsis */
+        }
+
+        .truncate-multiline {
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 3; /* Number of lines to display before truncating */
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="truncate">
+        This is a very long title that will be truncated with an ellipsis if it exceeds the container's width.
+    </div>
+
+    <div class="truncate-multiline">
+        This is a very long title that will be truncated with an ellipsis if it exceeds the container's height.
+        It will show up to three lines of text and then truncate the remaining text.
+    </div>
+
+</body>
+</html>
