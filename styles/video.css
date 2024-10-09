@@ -1,3 +1,7 @@
+.video-preview {
+    position: relative;
+}
+
 .thumbnail {
     width: 100%;
 }
@@ -22,6 +26,45 @@
 .profile-picture {
     width: 36px;
     border-radius: 50px;
+}
+
+.profile-tooltip {
+    position: absolute;
+    bottom: -50px;
+    height: 90px;
+    width: 300px;
+    opacity: 0;
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    background-color: white;
+    box-shadow: 10px 10px 5px 5px rgba(0, 0, 0, 0.05);
+    z-index: 1;
+    align-items: center;
+    transition: opacity 0.15s;
+    border-radius: 10px;
+}
+
+.tooltip-author {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.tooltip-subscriber {
+    color: gray;
+}
+
+.tooltip-profile-picture-container {
+    margin-left: 10px;
+}
+
+.tooltip-profile-picture {
+    object-fit: contain;
+    border-radius: 50px;
+}
+
+.channel-picture:hover .profile-tooltip{
+    opacity: 1;
 }
 
 .video-title {
